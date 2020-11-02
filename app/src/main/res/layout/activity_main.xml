@@ -20,15 +20,7 @@
         android:id="@+id/chgLag"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ChgLan"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="492dp" />
-
-    <Button
-        android:id="@+id/chgLagd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ChgLandf"
+        android:text="ChgLan3"
         tools:layout_editor_absoluteX="162dp"
         tools:layout_editor_absoluteY="492dp" />
 
