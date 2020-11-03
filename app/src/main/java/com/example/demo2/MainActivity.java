@@ -15,7 +15,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     // code just to check laguage changes
-    TextView textView;
+    TextView textView,textName2;
     Button chgLag;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView = (TextView)findViewById(R.id.textViewId);
         chgLag = (Button)findViewById(R.id.chgLag);
-
+        textName2= (TextView)findViewById(R.id.textViewId2);
         chgLag.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                     chgLag.setText("chgLagHindi");
                     setLocale("en");
                 }
-
             }
         });
     }
@@ -49,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         res.updateConfiguration(conf, dm);
 
         textView.setText(getString(R.string.textName));
+        textName2.setText(getString((R.string.textName2)));
         //to do
 
     }
