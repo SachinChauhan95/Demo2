@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         res.updateConfiguration(conf, dm);
 
         textView.setText(getString(R.string.textName));
+        //to do
 
     }
 }
