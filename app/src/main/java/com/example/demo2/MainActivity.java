@@ -14,6 +14,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
+    // code just to check laguage changes
     TextView textView;
     Button chgLag;
     @Override
